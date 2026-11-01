@@ -131,7 +131,7 @@ function Ledger({ on, layout }: { on: boolean; layout: Layout }) {
     <Window
       className="kb-window"
       body={{ 'data-crop': '' }}
-      title="Transactions"
+      title="Tokens"
       toolbar={toolbar}
       sidebarWidth={156}
       sidebar={
