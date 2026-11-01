@@ -1,0 +1,32 @@
+{
+  "name": "stageshow-showcase",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Token Desk marketing showcase built with Benji Taylor's Stageshow React kit.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.4.5"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}
