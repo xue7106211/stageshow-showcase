@@ -24,17 +24,17 @@ export default function App() {
         <div className="hero-copy">
           <p className="eyebrow">Design Ops · Token Pipeline</p>
           <h1>
-            把 Token 管线讲清楚，
+            Token Desk 演示一条
             <br />
-            像真正的产品一样演示。
+            Design Token 发布管线。
           </h1>
           <p className="lede">
-            Token Desk 是一个虚构的 Design Ops 产品故事，灵感来自薛一飞（Allen Xue）在设计系统 /
-            HyperOS Token / Figma→代码方向的公开实践。页面用 Benji Taylor 的{' '}
+            Token Desk 是虚构的 Design Ops 产品，题材取自薛一飞（Allen Xue）公开分享过的设计系统、
+            HyperOS Token 和 Figma 转代码工作。下面的动画用 Benji Taylor 的{' '}
             <a href="https://benji.org/stageshow" target="_blank" rel="noreferrer">
               Stageshow
             </a>{' '}
-            React kit 做出可循环的假 UI 演示。
+            React kit 搭成，循环播放，界面都是假的。
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#demos">
@@ -53,7 +53,7 @@ export default function App() {
       <section className="section" id="demos">
         <div className="section-head">
           <h2>能力一览</h2>
-          <p>Bento 网格：同步、覆盖率、Token 卡片、发布审批、Figma→代码。</p>
+          <p>五张卡片分别演示 Figma 同步、Token 覆盖率、Token 详情、发布审批和 Figma 转代码。</p>
         </div>
         <Bento />
       </section>
@@ -62,7 +62,7 @@ export default function App() {
         <div className="split-card">
           <div className="section-head">
             <h2>一键发布</h2>
-            <p>无光标的产品窗场景：覆盖率抬升、队列入场、发布完成。</p>
+            <p>覆盖率升到目标值后，变更进入发布队列，随后发布完成。</p>
           </div>
           <div className="stage-frame stage-frame--publish">
             <PublishFlow />
@@ -71,7 +71,7 @@ export default function App() {
         <div className="split-card">
           <div className="section-head">
             <h2>问 Token Desk</h2>
-            <p>产品窗里的助手：提问、思考、流式回答与来源。</p>
+            <p>向内置助手问一个 Token 映射问题，它逐字给出回答并附上来源。</p>
           </div>
           <div className="stage-frame stage-frame--chat">
             <TokenChat />
@@ -84,9 +84,9 @@ export default function App() {
           <div>
             <h2>关于这个站点</h2>
             <p>
-              这不是官方 playground 的原样搬运，而是基于 Stageshow 的 <code>kit/</code> 与若干 gold
-              examples（hero-demo、bento、payout-flow、ai-chat）改写的新营销页。产品名 Token Desk
-              为虚构；文案围绕公开的设计工程主题：Design Token、组件契约、Figma→代码，不包含任何内部机密。
+              页面基于 Stageshow 的 <code>kit/</code> 和四个官方示例（hero-demo、bento、payout-flow、ai-chat）改写，
+              没有照搬官方 playground。Token Desk 是虚构的产品名。文案只涉及公开的设计工程话题，
+              包括 Design Token、组件契约和 Figma 转代码，不含内部数据。
             </p>
             <p>
               作者：薛一飞 Allen Xue · 设计工程师。仓库：

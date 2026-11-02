@@ -29,7 +29,7 @@ import "./chat.css";
 
 const Q = "Why is color.brand.primary still unmapped in CSS?";
 const A =
-  "Figma still exports it as Soft Blue under Collection/Brand, but the CSS package expects --color-brand-primary. Token Desk mapped Soft Blue → color.brand.primary last week; regenerate the CSS package and the alias will resolve.";
+  "Figma still exports it as Soft Blue under Collection/Brand, but the CSS package expects --color-brand-primary. Token Desk mapped Soft Blue to color.brand.primary last week. Regenerate the CSS package to resolve the alias.";
 const WORDS = A.split(" ").length;
 
 type S = {
